@@ -1,0 +1,38 @@
+
+/*
+Theme Name: Controller
+Author: MeltWebs <michael@meltwebs.com>
+*/
+
+/***** Colors ******/
+
+$dark: #2C3E50;
+$complement: #3498DB;
+$anchor: #2980B9;
+$emphasis: #E74C3C;
+$plain: #ECF0F1;
+
+/*
+Flat UI Palette
+navy: #2C3E50;
+sapphire: #3498DB;
+shady-sapphire: #2980B9;
+red: #E74C3C;
+white: #ECF0F1;
+*/
+
+/***** Normalize ******/
+
+@import 'normalize';
+
+/***** Mixins ******/
+
+/***** General Styles ******/
+
+body {
+  background: $anchor;
+  color: $plain;
+  padding: 8px;
+  text-align: center;
+  font-size: 24px;
+}

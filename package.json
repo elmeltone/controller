@@ -1,0 +1,42 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm run build:sass && npm run build:js",
+    "watch": "npm run watch:sass && webpack --watch",
+    "build:sass": "node-sass src/sass/main.scss src/index.css",
+    "watch:sass": "nodemon -e scss -w src/sass -x 'npm run build:sass'",
+    "build:js": "webpack --config webpack.config.js",
+    "start": "node server.js"
+  },
+  "author": "MeltWebs <michael@meltwebs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.18.0",
+    "babel-loader": "6.2.7",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-2": "6.18.0",
+    "express": "4.14.0",
+    "react": "15.3.2",
+    "react-dom": "15.3.2",
+    "react-redux": "4.4.5",
+    "react-router": "3.0.0",
+    "react-router-redux": "4.0.6",
+    "redux": "3.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "3.10.1",
+    "webpack": "1.13.3",
+    "webpack-dev-server": "1.16.2"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "stage-2",
+      "es2015"
+    ]
+  }
+}
