@@ -36,17 +36,24 @@ body {
   font-size: 16px;
 }
 
+div {
+  display: inline-block;
+}
+
 /***** Specific Styles ******/
 
 .container {
   width: 304px;
   height: 464px;
-  margin: 0 auto;
+  margin: 8px auto;
   background: $anchor;
   color: $plain;
 }
 
-.instrument {
+.masthead, .dashboard, .instrument {
   width: 100%;
+}
+
+.instrument {
   height: 48px;
 }
