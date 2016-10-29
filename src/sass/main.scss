@@ -6,11 +6,11 @@ Author: MeltWebs <michael@meltwebs.com>
 
 /***** Colors ******/
 
-$dark: #2C3E50;
-$complement: #3498DB;
-$anchor: #2980B9;
-$emphasis: #E74C3C;
-$plain: #ECF0F1;
+$dark: #363942;
+$complement: #5C832F;
+$anchor: #284907;
+$contrast: #382513;
+$plain: #D8CAA8;
 
 /*
 Flat UI Palette
@@ -19,6 +19,20 @@ sapphire: #3498DB;
 shady-sapphire: #2980B9;
 red: #E74C3C;
 white: #ECF0F1;
+
+Sea Wolf Palette:
+red: DC3522;
+paper: D9CB9E;
+dark-sea: 374140;
+charcoal: 2A2C2B;
+black: 1E1E20;
+
+Japanese Garden Palette:
+sand: D8CAA8;
+moss: 5C832F;
+leaf: 284907;
+soil: 382513;
+stone: 363942;
 */
 
 /***** Normalize ******/
@@ -30,8 +44,8 @@ white: #ECF0F1;
 /***** General Styles ******/
 
 body {
-  background: $dark;
-  color: $plain;
+  background: $anchor;
+  color: $anchor;
   text-align: center;
   font-size: 16px;
 }
@@ -46,7 +60,7 @@ div {
   width: 304px;
   height: 464px;
   margin: 8px auto;
-  background: $anchor;
+  background: $complement;
   color: $plain;
 }
 
@@ -55,13 +69,18 @@ div {
 }
 
 .dashboard {
-  border-top: 2px solid $dark;
+  border-top: 2px solid $anchor;
 }
 
 .instrument {
   height: 48px;
-  border-bottom: 2px solid $dark;
-  display: block;
+  border-bottom: 2px solid $anchor;
+}
+
+.grip, .sensor-name, .indicator {
+  height: 100%;
+  float: left;
+  vertical-align: middle;
 }
 
 .grip {
@@ -70,6 +89,8 @@ div {
 
 .sensor-name {
   width: 30%;
+  text-align: left;
+  padding-left: 16px;
 }
 
 .indicator {

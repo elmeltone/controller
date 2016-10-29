@@ -26426,12 +26426,20 @@
 	            _react2.default.createElement(
 	              "div",
 	              { className: "grip" },
-	              "|||"
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "||||"
+	              )
 	            ),
 	            _react2.default.createElement(
-	              "h5",
+	              "div",
 	              { className: "sensor-name" },
-	              "Light"
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Light"
+	              )
 	            ),
 	            _react2.default.createElement("div", { className: "indicator" })
 	          ),
@@ -26439,37 +26447,93 @@
 	            "div",
 	            { className: "instrument CO2" },
 	            _react2.default.createElement(
-	              "h5",
-	              null,
-	              "CO2"
-	            )
+	              "div",
+	              { className: "grip" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "||||"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sensor-name" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "CO2"
+	              )
+	            ),
+	            _react2.default.createElement("div", { className: "indicator" })
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "instrument humidity" },
 	            _react2.default.createElement(
-	              "h5",
-	              null,
-	              "Humidity"
-	            )
+	              "div",
+	              { className: "grip" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "||||"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sensor-name" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Humidity"
+	              )
+	            ),
+	            _react2.default.createElement("div", { className: "indicator" })
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "instrument pH" },
 	            _react2.default.createElement(
-	              "h5",
-	              null,
-	              "pH"
-	            )
+	              "div",
+	              { className: "grip" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "||||"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sensor-name" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "pH"
+	              )
+	            ),
+	            _react2.default.createElement("div", { className: "indicator" })
 	          ),
 	          _react2.default.createElement(
 	            "div",
 	            { className: "instrument power" },
 	            _react2.default.createElement(
-	              "h5",
-	              null,
-	              "Power"
-	            )
+	              "div",
+	              { className: "grip" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "||||"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "sensor-name" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "Power"
+	              )
+	            ),
+	            _react2.default.createElement("div", { className: "indicator" })
 	          )
 	        )
 	      );

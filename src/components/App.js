@@ -26,21 +26,29 @@ class App extends React.Component {
         </div>
         <div className="dashboard">
           <div className="instrument light">
-            <div className="grip">|||</div>
-            <h5 className="sensor-name">Light</h5>
+            <div className="grip"><p>||||</p></div>
+            <div className="sensor-name"><p>Light</p></div>
             <div className="indicator"></div>
           </div>
           <div className="instrument CO2">
-            <h5>CO2</h5>
+            <div className="grip"><p>||||</p></div>
+            <div className="sensor-name"><p>CO2</p></div>
+            <div className="indicator"></div>
           </div>
           <div className="instrument humidity">
-            <h5>Humidity</h5>
+            <div className="grip"><p>||||</p></div>
+            <div className="sensor-name"><p>Humidity</p></div>
+            <div className="indicator"></div>
           </div>
           <div className="instrument pH">
-            <h5>pH</h5>
+            <div className="grip"><p>||||</p></div>
+            <div className="sensor-name"><p>pH</p></div>
+            <div className="indicator"></div>
           </div>
           <div className="instrument power">
-            <h5>Power</h5>
+            <div className="grip"><p>||||</p></div>
+            <div className="sensor-name"><p>Power</p></div>
+            <div className="indicator"></div>
           </div>
         </div>
       </div>
