@@ -26424,9 +26424,33 @@
 	            "div",
 	            { className: "instrument light" },
 	            _react2.default.createElement(
+	              "div",
+	              { className: "grip" },
+	              "|||"
+	            ),
+	            _react2.default.createElement(
+	              "h5",
+	              { className: "sensor-name" },
+	              "Light"
+	            ),
+	            _react2.default.createElement("div", { className: "indicator" })
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "instrument CO2" },
+	            _react2.default.createElement(
 	              "h5",
 	              null,
-	              "Light"
+	              "CO2"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "instrument humidity" },
+	            _react2.default.createElement(
+	              "h5",
+	              null,
+	              "Humidity"
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -26436,6 +26460,15 @@
 	              "h5",
 	              null,
 	              "pH"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "instrument power" },
+	            _react2.default.createElement(
+	              "h5",
+	              null,
+	              "Power"
 	            )
 	          )
 	        )

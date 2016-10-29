@@ -401,5 +401,19 @@ div {
 .masthead, .dashboard, .instrument {
   width: 100%; }
 
+.dashboard {
+  border-top: 2px solid #2C3E50; }
+
 .instrument {
-  height: 48px; }
+  height: 48px;
+  border-bottom: 2px solid #2C3E50;
+  display: block; }
+
+.grip {
+  width: 20%; }
+
+.sensor-name {
+  width: 30%; }
+
+.indicator {
+  width: 50%; }
