@@ -63,7 +63,7 @@
 	
 	var _reactRouter = __webpack_require__(173);
 	
-	var _App = __webpack_require__(250);
+	var _App = __webpack_require__(228);
 	
 	var _App2 = _interopRequireDefault(_App);
 	
@@ -26355,32 +26355,10 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ },
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */,
-/* 244 */,
-/* 245 */,
-/* 246 */,
-/* 247 */,
-/* 248 */,
-/* 249 */,
-/* 250 */
+/* 228 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -26425,12 +26403,42 @@
 	  }
 	
 	  _createClass(App, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'p',
-	        null,
-	        'Hello World'
+	        "div",
+	        { className: "container" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "masthead" },
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "Controller"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "dashboard" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "instrument light" },
+	            _react2.default.createElement(
+	              "h5",
+	              null,
+	              "Light"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "instrument pH" },
+	            _react2.default.createElement(
+	              "h5",
+	              null,
+	              "pH"
+	            )
+	          )
+	        )
 	      );
 	    }
 	  }]);

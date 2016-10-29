@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "node-sass": "3.10.1",
+    "nodemon": "1.11.0",
     "webpack": "1.13.3",
     "webpack-dev-server": "1.16.2"
   },
