@@ -415,13 +415,16 @@ div {
 .masthead, .dashboard, .instrument {
   width: 100%; }
 
+.masthead, .instrument {
+  background: #5C832F; }
+
 .dashboard {
-  border-top: 2px solid #284907; }
+  border-top: 2px solid #284907;
+  padding-top: 4px; }
 
 .instrument {
   height: 48px;
-  border-bottom: 2px solid #284907;
-  background: #5C832F; }
+  border-bottom: 2px solid #284907; }
 
 .grip, .sensor-name, .indicator {
   height: 100%;

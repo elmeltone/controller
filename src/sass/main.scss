@@ -68,14 +68,18 @@ div {
   width: 100%;
 }
 
+.masthead, .instrument {
+  background: $complement;
+}
+
 .dashboard {
   border-top: 2px solid $anchor;
+  padding-top: 4px;
 }
 
 .instrument {
   height: 48px;
   border-bottom: 2px solid $anchor;
-  background: $complement;
 }
 
 .grip, .sensor-name, .indicator {
