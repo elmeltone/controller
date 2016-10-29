@@ -409,7 +409,7 @@ div {
   width: 304px;
   height: 464px;
   margin: 8px auto;
-  background: #5C832F;
+  background: #4f7028;
   color: #D8CAA8; }
 
 .masthead, .dashboard, .instrument {
@@ -420,7 +420,8 @@ div {
 
 .instrument {
   height: 48px;
-  border-bottom: 2px solid #284907; }
+  border-bottom: 2px solid #284907;
+  background: #5C832F; }
 
 .grip, .sensor-name, .indicator {
   height: 100%;

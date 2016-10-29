@@ -60,7 +60,7 @@ div {
   width: 304px;
   height: 464px;
   margin: 8px auto;
-  background: $complement;
+  background: darken($complement, 5%);
   color: $plain;
 }
 
@@ -75,6 +75,7 @@ div {
 .instrument {
   height: 48px;
   border-bottom: 2px solid $anchor;
+  background: $complement;
 }
 
 .grip, .sensor-name, .indicator {
