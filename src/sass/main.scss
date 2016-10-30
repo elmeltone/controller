@@ -13,20 +13,6 @@ $contrast: #382513;
 $plain: #D8CAA8;
 
 /*
-Flat UI Palette
-navy: #2C3E50;
-sapphire: #3498DB;
-shady-sapphire: #2980B9;
-red: #E74C3C;
-white: #ECF0F1;
-
-Sea Wolf Palette:
-red: DC3522;
-paper: D9CB9E;
-dark-sea: 374140;
-charcoal: 2A2C2B;
-black: 1E1E20;
-
 Japanese Garden Palette:
 sand: D8CAA8;
 moss: 5C832F;
@@ -90,6 +76,9 @@ div {
 
 .grip {
   width: 20%;
+  &:hover {
+    cursor: move;
+  }
 }
 
 .sensor-name {
@@ -104,3 +93,7 @@ div {
 .indicator {
   width: 50%;
 }
+
+/***** Modules ******/
+
+@import 'switch';

@@ -26441,7 +26441,21 @@
 	                "Light"
 	              )
 	            ),
-	            _react2.default.createElement("div", { className: "indicator" })
+	            _react2.default.createElement(
+	              "div",
+	              { className: "indicator" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "onoffswitch" },
+	                _react2.default.createElement("input", { type: "checkbox", name: "onoffswitch", className: "onoffswitch-checkbox", id: "myonoffswitch" }),
+	                _react2.default.createElement(
+	                  "label",
+	                  { className: "onoffswitch-label" },
+	                  _react2.default.createElement("span", { className: "onoffswitch-inner" }),
+	                  _react2.default.createElement("span", { className: "onoffswitch-switch" })
+	                )
+	              )
+	            )
 	          ),
 	          _react2.default.createElement(
 	            "div",

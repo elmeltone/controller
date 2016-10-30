@@ -28,7 +28,15 @@ class App extends React.Component {
           <div className="instrument light">
             <div className="grip"><p>||||</p></div>
             <div className="sensor-name"><p className="title">Light</p></div>
-            <div className="indicator"></div>
+            <div className="indicator">
+              <div className="onoffswitch">
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="myonoffswitch"></input>
+                <label className="onoffswitch-label">
+                  <span className="onoffswitch-inner"></span>
+                  <span className="onoffswitch-switch"></span>
+                </label>
+              </div>
+            </div>
           </div>
           <div className="instrument CO2">
             <div className="grip"><p>||||</p></div>
