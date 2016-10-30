@@ -26447,7 +26447,7 @@
 	              _react2.default.createElement(
 	                "div",
 	                { className: "onoffswitch" },
-	                _react2.default.createElement("input", { type: "checkbox", name: "onoffswitch", className: "onoffswitch-checkbox", id: "myonoffswitch" }),
+	                _react2.default.createElement("input", { type: "checkbox", name: "onoffswitch", className: "onoffswitch-checkbox", id: "myonoffswitch", checked: true }),
 	                _react2.default.createElement(
 	                  "label",
 	                  { className: "onoffswitch-label" },
