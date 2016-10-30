@@ -26437,7 +26437,7 @@
 	              { className: "sensor-name" },
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                { className: "title" },
 	                "Light"
 	              )
 	            ),
@@ -26460,7 +26460,7 @@
 	              { className: "sensor-name" },
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                { className: "title" },
 	                "CO2"
 	              )
 	            ),
@@ -26483,7 +26483,7 @@
 	              { className: "sensor-name" },
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                { className: "title" },
 	                "Humidity"
 	              )
 	            ),
@@ -26506,7 +26506,7 @@
 	              { className: "sensor-name" },
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                { className: "title" },
 	                "pH"
 	              )
 	            ),
@@ -26529,7 +26529,7 @@
 	              { className: "sensor-name" },
 	              _react2.default.createElement(
 	                "p",
-	                null,
+	                { className: "title" },
 	                "Power"
 	              )
 	            ),
