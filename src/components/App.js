@@ -30,7 +30,7 @@ class App extends React.Component {
             <div className="sensor-name"><p className="title">Light</p></div>
             <div className="indicator">
               <div className="onoffswitch">
-                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="myonoffswitch" checked></input>
+                <input type="checkbox" name="onoffswitch" className="onoffswitch-checkbox" id="myonoffswitch"></input>
                 <label className="onoffswitch-label">
                   <span className="onoffswitch-inner"></span>
                   <span className="onoffswitch-switch"></span>
