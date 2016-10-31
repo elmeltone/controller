@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mqtt = require('mqtt');
-const client = mqtt.connect('mqtt://104.59.2.85');
+const client = mqtt.connect('mqtt://test.mosquitto.org');
 
 app.use(express.static(__dirname + '/'));
 
