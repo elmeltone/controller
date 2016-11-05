@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 const mqtt = require('mqtt');
-const client = mqtt.connect('mqtt://192.168.1.225:1883');
+
+const client = mqtt.connect('mqtt://104.59.2.85:1883',{
+  username: 'mosquitto',
+  password: 'mosquitto'
+});
 
 app.use(express.static(__dirname + '/'));
 
@@ -17,3 +21,5 @@ client.on('message', function (topic, message) {
 });
 
 app.listen(process.env.PORT || 8080);
+
+
